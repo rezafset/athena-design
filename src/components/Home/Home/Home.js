@@ -16,11 +16,11 @@ const Home = () => {
             <Banner></Banner>
             <About></About>
             <Service></Service>
+            <Team></Team>
             <Achievements></Achievements>
             <Plan></Plan>
             <Contact></Contact>
             <Footer></Footer>
-            <Team></Team>
         </div>
     );
 };
