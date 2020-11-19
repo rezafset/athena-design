@@ -34,7 +34,7 @@ const Service = () => {
                 <div className="row">
                     {
                         serviceInfo.map(service =>
-                            <div className="col-md-3">
+                            <div className="col-md-3 mt-md-0 mt-lg-0 mt-sm-3 mt-3">
                                 <div className="card text-center">
                                     <div className="card-body">
                                         <img className="mx-auto service-img" src={service.img} alt="" />

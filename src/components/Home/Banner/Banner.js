@@ -5,7 +5,7 @@ import banner from '../../../resource/Illustration/banner.png';
 const Banner = () => {
     return (
             <div className="container py-5" id="banner">
-                <div className="row d-flex align-items-center">
+                <div className="row d-flex align-items-center" >
                     <div className="col-md-6 ">
                         <h1 className="pb-3">Florence <br/> agency</h1>
                         <small className="text-secondary"> Lorem Ipsum has been the industry's standerd dummy text ever sence the 1500's when an unknown printer took a galley of type and scrambled it to make a type specimen book. </small> <br/>

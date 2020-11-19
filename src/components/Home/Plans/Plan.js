@@ -3,12 +3,12 @@ import { Card, Col, Container, Row } from 'react-bootstrap';
 import classes from './plan.module.css'
 const Plan = () => {
     return (
-        <div className={classes.plansContainer}>
+        <div id="pricing" className={classes.plansContainer}>
             <Container>
                 <h2 style={{"text-align":"center", "margin-bottom":"60px"}} className="sectionHeader">Choose your dedicated team.</h2>
                 <Row>
-                    <Col md={4}>
-                        <Card style={{ width: '18rem' }}  className={classes.singlePlanContainer}>
+                    <Col md={4} className="mb-5 mb-sm-5 mb-md-0 mb-lg-0">
+                        <Card  className={classes.singlePlanContainer}>
                             <Card.Body>
                                 <Card.Title className={classes.planPrice}><h2>$199</h2></Card.Title>
                                 <Card.Subtitle className={`mb-2 text-muted ${classes.planName}`}>For Basic</Card.Subtitle>
@@ -25,8 +25,8 @@ const Plan = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col md={4}>
-                        <Card style={{ width: '18rem' }}  className={classes.singlePlanContainer}>
+                    <Col md={4} className="mb-5 mb-sm-5 mb-md-0 mb-lg-0">
+                        <Card className={classes.singlePlanContainer}>
                             <Card.Body>
                                 <Card.Title className={classes.planPrice}><h2>$399</h2></Card.Title>
                                 <Card.Subtitle className={`mb-2 text-muted ${classes.planName}`}>For Basic</Card.Subtitle>
@@ -44,7 +44,7 @@ const Plan = () => {
                         </Card>
                     </Col>
                     <Col md={4}>
-                        <Card style={{ width: '18rem' }} className={classes.singlePlanContainer}>
+                        <Card className={classes.singlePlanContainer}>
                             <Card.Body>
                                 <Card.Title className={classes.planPrice}><h2>$599</h2></Card.Title>
                                 <Card.Subtitle className={`mb-2 text-muted ${classes.planName}`}>For Basic</Card.Subtitle>

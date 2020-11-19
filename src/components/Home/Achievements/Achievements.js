@@ -10,7 +10,7 @@ import transportation from '../../../resource/Illustration/transportation.png'
 
 const Achievements = () => {
     return (
-        <div className={classes.achievementsContainer}>
+        <div id="achievement" className={classes.achievementsContainer}>
             <Container>
                 <Row>
                     <Col md={4}>

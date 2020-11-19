@@ -1,8 +1,8 @@
 .siteLogo img {
     max-width: 100%;
     width: 40%;
-    /* margin-bottom: 40px; */
 }
+
 .footerListGroup li{
     list-style: none;
     color: #919493;
@@ -10,12 +10,20 @@
     font-weight: 500;
 
 }
-/* .socialLogo img{
-    margin-right: 40px;
-} */
-/* .footer {
-    margin-top: 100px;
-} */
+
+@media (max-width: 576px){
+    .footerListGroup li{
+        text-align: center;
+    }
+    .siteLogo img {
+        display:block;
+        margin:0 auto;
+    }
+    .socialLogo {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 @media (max-width: 480px){
     .footerListGroup li{
