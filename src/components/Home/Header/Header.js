@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../resource/Illustration/logo.png'
+import './Header.css';
 
 const Header = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <Link to="/" class="navbar-brand" href="#">
                     <img className="logo" src={logo} alt=""/>
@@ -14,7 +15,7 @@ const Header = () => {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <Link to="/" class="nav-link mr-2" href="#">Home</Link>
                         </li>
                         <li class="nav-item">
