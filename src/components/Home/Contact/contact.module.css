@@ -1,0 +1,36 @@
+.contactContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contactSection {
+    text-align: center;
+}
+.contactHeader h2 {
+    margin-bottom: 30px;
+}
+.contactHeader p {
+    color: #5D5E5E;
+    font-size: 18px;
+}
+.contactMail {
+    position: relative;
+}
+.contactEmail {
+    width: 60%;
+    height: 60px;
+    padding: 5px 30px;
+    color: gray;
+    border: none;
+    box-shadow: 0px 0px 10px 0px lightgrey;
+    margin-top: 40px;
+}
+.contactSubmitBtn {
+    position: absolute;
+    right: 227px;
+    height: 50px;
+    top: 45px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 24px;
+    width: 150px;
+}

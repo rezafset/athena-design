@@ -1,0 +1,18 @@
+.siteLogo img {
+    max-width: 100%;
+    width: 40%;
+    margin-bottom: 40px;
+}
+.footerListGroup li{
+    list-style: none;
+    color: #919493;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.socialLogo img{
+    margin-right: 40px;
+}
+.footer {
+    margin-top: 100px;
+}

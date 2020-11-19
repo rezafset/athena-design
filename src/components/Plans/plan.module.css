@@ -1,0 +1,48 @@
+.plansContainer {
+    margin-top: 100px;
+}
+.singlePlanContainer {
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px lightgrey;
+    background: white;
+    height: 502px;
+}
+.singlePlanContainer:hover {
+    box-shadow: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px 3px #3CEDCE;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.planName {
+    position: relative;
+    margin-bottom: 50px !important;
+}
+.planName::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    background: #9BE5E1;
+    left: 50%;
+    top: 35px;
+    transform: translateX(-50%);
+}
+.planFeatures {
+    margin-bottom: 50px;
+}
+.planFeatures li {
+    list-style: none;
+    color: #474747;
+    font-size: 18px;
+    margin-bottom: 11px;
+    font-weight: 500;
+}
+.planOrderBtn {
+    display: none;
+    transition: display 1s ease;
+
+}
+.singlePlanContainer:hover .planOrderBtn {
+    display: inline-block;
+}
