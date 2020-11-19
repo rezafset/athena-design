@@ -7,6 +7,7 @@ import Service from '../Service/Service';
 import Contact from '../Contact/Contact';
 import Plan from '../Plans/Plan';
 import Achievements from '../Achievements/Achievements';
+import Team from '../Team/Team';
 
 const Home = () => {
     return (
@@ -19,9 +20,9 @@ const Home = () => {
             <Plan></Plan>
             <Contact></Contact>
             <Footer></Footer>
+            <Team></Team>
         </div>
     );
 };
-<p> </p>
 
 export default Home;
