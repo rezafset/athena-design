@@ -8,7 +8,7 @@ const Contact = () => {
             <Container>
                 <div className={classes.contactSection}>
                     <div className={classes.contactHeader}>
-                        <h2>Get your design right, right now</h2>
+                        <h2 className="sectionHeader">Get your design right, right now</h2>
                         <p>Be the first know our latest offers and updates!</p>
                     </div>
                     <div className={classes.contactArea}>

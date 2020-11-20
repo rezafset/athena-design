@@ -2,7 +2,6 @@
     max-width: 100%;
     width: 40%;
 }
-
 .footerListGroup li{
     list-style: none;
     color: #919493;
@@ -10,7 +9,6 @@
     font-weight: 500;
 
 }
-
 @media (max-width: 767px){
     .footerListGroup li{
         text-align: center;

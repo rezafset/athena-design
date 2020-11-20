@@ -6,8 +6,8 @@ import Header from '../Header/Header';
 import Service from '../Service/Service';
 import Contact from '../Contact/Contact';
 import Plan from '../Plans/Plan';
-import Achievements from '../Achievements/Achievements';
 import Team from '../Team/Team';
+import Achievement from '../Achievement/Achievement';
 
 const Home = () => {
     return (
@@ -17,7 +17,7 @@ const Home = () => {
             <About></About>
             <Service></Service>
             <Team></Team>
-            <Achievements></Achievements>
+            <Achievement></Achievement>
             <Plan></Plan>
             <Contact></Contact>
             <Footer></Footer>

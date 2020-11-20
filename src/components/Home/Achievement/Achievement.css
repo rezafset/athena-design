@@ -1,0 +1,22 @@
+#achievementSection{
+    background: rgba(0, 0, 0, 0) linear-gradient(45deg, #2DB9EF, #1BD5BE 90%) repeat scroll 0% 0%;
+    color: white;
+    cursor: pointer;
+}
+.achievementOdd{
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    box-shadow: 0px 0px 10px 0px lightgray;
+}
+.achievementEven{
+    box-shadow: 0px 0px 10px 0px lightgray;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+.achievementWrapper{
+    padding: 30px;
+}
+.achievementWrapper img{
+    height: 60px;
+    width: 60px;
+}

@@ -5,7 +5,7 @@ const Plan = () => {
     return (
         <div id="pricing" className={classes.plansContainer}>
             <Container>
-                <h2 style={{"text-align":"center", "margin-bottom":"60px"}} className="sectionHeader">Choose your dedicated team.</h2>
+                <h2 style={{"text-align":"center", "margin-bottom":"60px"}} className="sectionHeader">Choose Your Dedicated Team</h2>
                 <Row>
                     <Col md={4} className="mb-5 mb-sm-5 mb-md-0 mb-lg-0">
                         <Card  className={classes.singlePlanContainer}>
