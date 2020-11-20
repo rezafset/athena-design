@@ -12,8 +12,10 @@
     color: #5D5E5E;
     font-size: 18px;
 }
-.contactMail {
+.contactForm {
     position: relative;
+    width: 100%;
+    margin: 0 auto;
 }
 .contactEmail {
     width: 60%;
@@ -26,11 +28,21 @@
 }
 .contactSubmitBtn {
     position: absolute;
-    right: 227px;
+    right: 21%;
     height: 50px;
     top: 45px;
     border: none;
     border-radius: 5px;
     padding: 2px 24px;
     width: 150px;
+}
+@media (max-width: 767px) {
+    .contactEmail {
+        width: 100%;
+    }
+    .contactSubmitBtn {
+        width: 100px;
+        right: 1%;
+        padding: 2px 5px;
+    }
 }
