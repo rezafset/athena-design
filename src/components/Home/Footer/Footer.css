@@ -11,21 +11,7 @@
 
 }
 
-@media (max-width: 576px){
-    .footerListGroup li{
-        text-align: center;
-    }
-    .siteLogo img {
-        display:block;
-        margin:0 auto;
-    }
-    .socialLogo {
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media (max-width: 480px){
+@media (max-width: 767px){
     .footerListGroup li{
         text-align: center;
     }

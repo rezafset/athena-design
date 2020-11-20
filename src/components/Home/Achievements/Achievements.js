@@ -6,7 +6,7 @@ import marketing from '../../../resource/Illustration/marketing.png'
 import surface from '../../../resource/Illustration/surface.png'
 import transportation from '../../../resource/Illustration/transportation.png'
 
-
+ 
 
 const Achievements = () => {
     return (
@@ -23,7 +23,7 @@ const Achievements = () => {
                         <Row>
                             <Col md={6} style={{"margin-bottom": "20px"}}>
                                 <div className={`btn-all ${classes.singleAchievementOdd}`}>
-                                    <Row>
+                                    <Row className={classes.singleAchievementWrapper}>
                                         <Col md={4}>
                                             <img src={happy} alt=""/>
                                         </Col>
@@ -36,7 +36,7 @@ const Achievements = () => {
                             </Col>
                             <Col md={6} style={{"margin-bottom": "20px"}}>
                             <div className={`btn-all ${classes.singleAchievementEven}`}>
-                                    <Row>
+                                    <Row className={classes.singleAchievementWrapper}>
                                         <Col md={4}>
                                             <img src={marketing} alt=""/>
                                         </Col>
@@ -49,7 +49,7 @@ const Achievements = () => {
                             </Col>
                             <Col md={6} style={{"margin-bottom": "20px"}}>
                             <div className={`btn-all ${classes.singleAchievementEven}`}>
-                                    <Row>
+                                    <Row className={classes.singleAchievementWrapper}>
                                         <Col md={4}>
                                             <img src={surface} alt=""/>
                                         </Col>
@@ -62,7 +62,7 @@ const Achievements = () => {
                             </Col>
                             <Col md={6} style={{"margin-bottom": "20px"}}>
                             <div className={`btn-all ${classes.singleAchievementOdd}`}>
-                                    <Row>
+                                    <Row className={classes.singleAchievementWrapper}>
                                         <Col md={4}>
                                             <img src={transportation} alt=""/>
                                         </Col>
